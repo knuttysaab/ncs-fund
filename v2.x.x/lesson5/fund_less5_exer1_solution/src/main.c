@@ -35,7 +35,7 @@ static const struct gpio_dt_spec led1 = GPIO_DT_SPEC_GET(DT_ALIAS(led1), gpios);
 static const struct gpio_dt_spec led2 = GPIO_DT_SPEC_GET(DT_ALIAS(led2), gpios);
 #endif
 
-/* STEP 4.1 - Get the device pointer of the UART hardware */
+/* STEP 4.1 - Get the device pointer of the UART hardware */1231
 const struct device *uart= DEVICE_DT_GET(DT_NODELABEL(uart0));
 
 

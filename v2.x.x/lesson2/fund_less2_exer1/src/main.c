@@ -10,7 +10,7 @@
 #include <zephyr/drivers/gpio.h>
 
 /* STEP 7 - Change the sleep time from 1000 ms to 100 ms */
-#define SLEEP_TIME_MS   100
+#define SLEEP_TIME_MS   1000
 
 /* STEP 3.1 - Get the node identifier for button 1 through its alias sw0 */
 #define SW0_NODE	DT_ALIAS(sw0) 
